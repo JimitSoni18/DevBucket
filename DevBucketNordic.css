@@ -1,0 +1,295 @@
+/* .bg-nord0 {
+	background-color: #2e3440 !important;
+}
+.bg-nord1 {
+	background-color: #3b4252 !important;
+}
+.bg-nord2 {
+	background-color: #434c5e !important;
+}
+.bg-nord3 {
+	background-color: #4c566a !important;
+}
+.bg-nord4 {
+	background-color: #d8dee9 !important;
+}
+.bg-nord5 {
+	background-color: #e5e9f0 !important;
+}
+.bg-nord6 {
+	background-color: #eceff4 !important;
+}
+.bg-nord7 {
+	background-color: #d8dee9 !important;
+}
+.bg-nord8 {
+	background-color: #d8dee9 !important;
+}
+.bg-nord9 {
+	background-color: #d8dee9 !important;
+}
+.bg-nord10 {
+	background-color: #d8dee9 !important;
+}
+.bg-nord11 {
+	background-color: #d8dee9 !important;
+}
+.bg-nord12 {
+	background-color: #d8dee9 !important;
+}
+.bg-nord13 {
+	background-color: #d8dee9 !important;
+}
+.bg-nord14 {
+	background-color: #d8dee9 !important;
+}
+.bg-nord15 {
+	background-color: #d8dee9 !important;
+}
+
+.text-nord0 {
+	color: #2e3440 !important;
+}
+.text-nord1 {
+	color: #3b4252 !important;
+}
+.text-nord2 {
+	color: #434c5e !important;
+}
+.text-nord3 {
+	color: #4c566a !important;
+}
+.text-nord4 {
+	color: #d8dee9 !important;
+}
+.text-nord5 {
+	color: #e5e9f0 !important;
+}
+.text-nord6 {
+	color: #eceff4 !important;
+}
+.text-nord7 {
+	color: #d8dee9 !important;
+}
+.text-nord8 {
+	color: #d8dee9 !important;
+}
+.text-nord9 {
+	color: #d8dee9 !important;
+}
+.text-nord10 {
+	color: #d8dee9 !important;
+}
+.text-nord11 {
+	color: #d8dee9 !important;
+}
+.text-nord12 {
+	color: #d8dee9 !important;
+}
+.text-nord13 {
+	color: #d8dee9 !important;
+}
+.text-nord14 {
+	color: #d8dee9 !important;
+}
+.text-nord15 {
+	color: #d8dee9 !important;
+} */
+
+/* new */
+
+/* Nordic color palette */
+
+/* Polar Night */
+:root {
+	--polar-night-0: #2e3440 !important; /* Darkest shade */
+	--polar-night-1: #3b4252 !important;
+	--polar-night-2: #434c5e !important;
+	--polar-night-3: #4c566a !important; /* Lightest shade */
+}
+
+/* Snow Storm */
+:root {
+	--snow-storm-0: #d8dee9 !important; /* Lightest shade */
+	--snow-storm-1: #e5e9f0 !important;
+	--snow-storm-2: #eceff4 !important;
+}
+
+/* Frost */
+:root {
+	--frost-0: #8fbcbb !important; /* Lightest shade */
+	--frost-1: #88c0d0 !important;
+	--frost-2: #81a1c1 !important;
+	--frost-3: #5e81ac !important; /* Darkest shade */
+}
+
+/* Aurora */
+:root {
+	--aurora-danger: #bf616a !important;
+	--aurora-orange: #d08770 !important;
+	--aurora-warning: #ebcb8b !important;
+	--aurora-success: #a3be8c !important;
+	--aurora-sakura: #b48ead !important;
+}
+
+/* Example usage */
+
+/* BACKGROUND */
+
+.bg-polar-night-0 {
+	background-color: var(--polar-night-0) !important;
+}
+.bg-polar-night-1 {
+	background-color: var(--polar-night-1) !important;
+}
+.bg-polar-night-2 {
+	background-color: var(--polar-night-2) !important;
+}
+.bg-polar-night-3 {
+	background-color: var(--polar-night-3) !important;
+}
+
+.bg-snow-storm-0 {
+	background-color: var(--snow-storm-0) !important;
+}
+.bg-snow-storm-1 {
+	background-color: var(--snow-storm-1) !important;
+}
+.bg-snow-storm-2 {
+	background-color: var(--snow-storm-2) !important;
+}
+
+.bg-frost-0 {
+	background-color: var(--frost-0) !important;
+}
+.bg-frost-1 {
+	background-color: var(--frost-1) !important;
+}
+.bg-frost-2 {
+	background-color: var(--frost-2) !important;
+}
+.bg-frost-3 {
+	background-color: var(--frost-3) !important;
+}
+
+.bg-aurora-danger {
+	background-color: var(--aurora-danger) !important;
+}
+.bg-aurora-orange {
+	background-color: var(--aurora-orange) !important;
+}
+.bg-aurora-warning {
+	background-color: var(--aurora-warning) !important;
+}
+.bg-aurora-success {
+	background-color: var(--aurora-success) !important;
+}
+.bg-aurora-sakura {
+	background-color: var(--aurora-sakura) !important;
+}
+
+/* TEXT */
+.text-polar-night-0 {
+	color: var(--polar-night-0) !important;
+}
+.text-polar-night-1 {
+	color: var(--polar-night-1) !important;
+}
+.text-polar-night-2 {
+	color: var(--polar-night-2) !important;
+}
+.text-polar-night-3 {
+	color: var(--polar-night-3) !important;
+}
+
+.text-snow-storm-0 {
+	color: var(--snow-storm-0) !important;
+}
+.text-snow-storm-1 {
+	color: var(--snow-storm-1) !important;
+}
+.text-snow-storm-2 {
+	color: var(--snow-storm-2) !important;
+}
+
+.text-frost-0 {
+	color: var(--frost-0) !important;
+}
+.text-frost-1 {
+	color: var(--frost-1) !important;
+}
+.text-frost-2 {
+	color: var(--frost-2) !important;
+}
+.text-frost-3 {
+	color: var(--frost-3) !important;
+}
+
+.text-aurora-danger {
+	color: var(--aurora-danger) !important;
+}
+.text-aurora-orange {
+	color: var(--aurora-orange) !important;
+}
+.text-aurora-warning {
+	color: var(--aurora-warning) !important;
+}
+.text-aurora-success {
+	color: var(--aurora-success) !important;
+}
+.text-aurora-sakura {
+	color: var(--aurora-sakura) !important;
+}
+
+/* BORDER */
+.border-polar-night-0 {
+	border-color: var(--polar-night-0) !important;
+}
+.border-polar-night-1 {
+	border-color: var(--polar-night-1) !important;
+}
+.border-polar-night-2 {
+	border-color: var(--polar-night-2) !important;
+}
+.border-polar-night-3 {
+	border-color: var(--polar-night-3) !important;
+}
+
+.border-snow-storm-0 {
+	border-color: var(--snow-storm-0) !important;
+}
+.border-snow-storm-1 {
+	border-color: var(--snow-storm-1) !important;
+}
+.border-snow-storm-2 {
+	border-color: var(--snow-storm-2) !important;
+}
+
+.border-frost-0 {
+	border-color: var(--frost-0) !important;
+}
+.border-frost-1 {
+	border-color: var(--frost-1) !important;
+}
+.border-frost-2 {
+	border-color: var(--frost-2) !important;
+}
+.border-frost-3 {
+	border-color: var(--frost-3) !important;
+}
+
+.border-aurora-danger {
+	border-color: var(--aurora-danger) !important;
+}
+.border-aurora-orange {
+	border-color: var(--aurora-orange) !important;
+}
+.border-aurora-warning {
+	border-color: var(--aurora-warning) !important;
+}
+.border-aurora-success {
+	border-color: var(--aurora-success) !important;
+}
+.border-aurora-sakura {
+	border-color: var(--aurora-sakura) !important;
+}

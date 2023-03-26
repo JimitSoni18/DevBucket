@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+}
+#time {
+  font-family: 'Montserrat Semibold';
+}
+
+.timeContainer {
+	height: 180px;
+}
+
+.material-symbols-rounded {
+  transition: all 1s !important;
+	font-variation-settings:
+		'FILL' 0,
+		'wght' 400,
+		'GRAD' 200,
+		'opsz' 48
+}
